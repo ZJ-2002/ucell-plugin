@@ -1,5 +1,12 @@
 Scoped official UCell adapter for Autonomics
 
+Canonical repository: https://github.com/ZJ-2002/ucell-plugin
+Renamed from cachexia-ucell-plugin on 2026-10-10 to reflect the generic
+method. The repository rename does not alter the validated wrapper,
+manifest plugin_name, node kind, image identity or frozen deployments.
+The historical cachexia-ucell installation name remains for compatibility;
+it denotes verification origin, not a disease-specific scoring algorithm.
+
 This independent plugin calls UCell 2.16.0, not an approximate Python rank
 score. It is an opt-in route and does not replace or certify the existing
 single-cell/h5ad_ucell_score implementation. The two TSV inputs and four
